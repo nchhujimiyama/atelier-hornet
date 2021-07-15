@@ -16,13 +16,13 @@
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
+  "homepage": "https://nchhujimiyama.github.io/atelier-hornet",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "yarn build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +44,5 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
-  "homepage": "https://nchhujimiyama.github.io/atelier-hornet"
+  }
 }
